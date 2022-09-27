@@ -9,7 +9,7 @@ import pyrealsense2 as rs           # 版本目前不支援python3.10
 import cv2
 
 
-so_file = "/home/weng/HIWIN_XEG32/libmodbus/src/controller_0922/Hiwin_API.so"
+so_file = "/home/weng/HIWIN_XEG32/src/controller_0922/Hiwin_API.so"
 modbus = CDLL(so_file)
 
 
