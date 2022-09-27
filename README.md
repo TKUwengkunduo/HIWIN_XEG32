@@ -1,8 +1,9 @@
 # HIWIN_XEG32
 
 
-編譯程式
+
 cd /HIWIN_XEG32/src/controller/
+編譯程式
 cc -o main Hiwin_XEG32_API.c -lmodbus -I ./
 
 生成.so檔
